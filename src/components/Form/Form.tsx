@@ -74,7 +74,7 @@ export const Form = () => {
           <h3 >Formulario Manejo de Errores</h3>
           <form action="" onSubmit={handleSubmit} className={styles.formInputs}>
           <Input name="name" type="text" value={formValues.name} label="Name" handleChange={handleChange} error={formErrors.name}></Input>
-
+ 
           <Input name="email" type="email" value={formValues.email} label="Email" handleChange={handleChange} error={formErrors.email}></Input>
 
           <Input name="password" type="password" value={formValues.password} label="Password" handleChange={handleChange} error={formErrors.password}></Input>
